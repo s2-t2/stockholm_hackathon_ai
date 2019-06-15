@@ -1,0 +1,26 @@
+Best score: 0.839
+Best parameters set:
+	clf__alpha: 1e-06
+	clf__max_iter: 20
+	clf__penalty: 'l2'
+	vect__max_df: 0.75
+	vect__ngram_range: (1, 2)
+
+
+Best score: 0.826
+Best parameters set:
+	clf__alpha: 1e-07
+	clf__loss: 'log'
+	clf__max_iter: 160
+	vect__max_df: 0.75
+	vect__ngram_range: (1, 5)
+
+
+Best score: 0.810
+Best parameters set:
+	clf__alpha: 1e-06
+	clf__loss: 'log'
+	clf__max_iter: 160
+	vect__max_df: 0.75
+	vect__ngram_range: (1, 5)
+

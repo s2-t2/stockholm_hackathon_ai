@@ -34,10 +34,10 @@ parameters = {
     # 'tfidf__use_idf': (True, False),
     #'tfidf__norm': ('l1', 'l2'),
     #'clf__max_iter': (20,),
-    'clf__alpha': (1e-7),
+    'clf__alpha': (1e-6, 1e-7),
     #'clf__penalty': ('l2', 'elasticnet'),
-    'clf__loss': ('log',),
-    'clf__max_iter': (160,),
+    'clf__loss': ('modified_huber', 'perceptron'),
+    'clf__max_iter': (160, 240),
 }
 
 if __name__ == "__main__":
